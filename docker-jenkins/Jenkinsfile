@@ -4,11 +4,11 @@ pipeline {
     stage('Test') {
       agent {
         docker { 
-          image 'node:16' 
+          image 'ubuntu:20.04' 
         }
       }
       steps {
-        sh 'node --version'
+        sh 'apt-get update && apt-get install -y nodejs npm && node --version'
       }
     }
   }
