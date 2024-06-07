@@ -13,9 +13,9 @@ sudo apt-update
 Installation jenkins
 
 ```bash
-	docker network create jenkins
-	docekr build -t <name:tags> .
-	docker-compose up -d
+docker network create jenkins
+docker build -t <name:tags> .
+docker-compose up -d
 ```
 
 Verify the docker
@@ -29,5 +29,3 @@ docker ps
 http://<your ip address>:8080
 
 Run the  docker logs jenkins-blueocean copy password and add the “administration password”
-
-Installation with packages
