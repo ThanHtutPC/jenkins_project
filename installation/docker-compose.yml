@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   jenkins-blueocean:
-    image: myjenkins-blueocean:2.452.1
+    image: jenkins-project:latest
     container_name: jenkins-blueocean
     restart: on-failure
     networks:

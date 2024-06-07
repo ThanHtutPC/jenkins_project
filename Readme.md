@@ -29,3 +29,5 @@ docker ps
 http://<your ip address>:8080
 
 Run the  docker logs jenkins-blueocean copy password and add the “administration password”
+
+Installation with packages
